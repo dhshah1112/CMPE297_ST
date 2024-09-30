@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Medical Diagnosis Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>AI-Powered Medical Diagnosis Assistant</h1>
+        <div id="symptom-input">
+            <h2>Enter Symptoms</h2>
+            <textarea id="symptoms" rows="4" placeholder="Enter symptoms, separated by commas"></textarea>
+            <button id="analyze-btn">Analyze Symptoms</button>
+        </div>
+        <div id="analysis-result">
+            <h2>Analysis Result</h2>
+            <div id="possible-diagnoses"></div>
+            <div id="recommendations"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
